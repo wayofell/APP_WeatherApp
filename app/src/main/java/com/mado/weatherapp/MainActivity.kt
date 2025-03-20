@@ -138,9 +138,21 @@ fun WeatherScreen() {
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
-                            WeatherDetailItem(icon = R.drawable.rain, value = "22%", label = "Rain")
-                            WeatherDetailItem(icon = R.drawable.wind, value = "22%", label = "Wind Speed")
-                            WeatherDetailItem(icon = R.drawable.humidity, value = "18%", label = "Humidity")
+                            WeatherDetailItem(
+                                icon = R.drawable.rain,
+                                value = "22%",
+                                label = "Rain"
+                            )
+                            WeatherDetailItem(
+                                icon = R.drawable.wind,
+                                value = "22%",
+                                label = "Wind Speed"
+                            )
+                            WeatherDetailItem(
+                                icon = R.drawable.humidity,
+                                value = "18%",
+                                label = "Humidity"
+                            )
                         }
                     }
 
